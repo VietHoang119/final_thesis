@@ -7,7 +7,7 @@ This repository contains the implementation, experimental setup, and documentati
 ```
 /src
   /data        # Data loading, preprocessing, augmentation
-  /preproc     # Frame extraction, ASR (Whisper), audio features (MFCC, mel-spectrogram)
+  /preproc     # Data processing
   /models      # Baseline and proposed models (BERT, ResNet/ViT, fusion mechanisms)
   /train       # Training loops, schedulers, logging
   /eval        # Evaluation metrics, ROC/PR curves, confusion matrices
