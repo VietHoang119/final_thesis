@@ -8,9 +8,9 @@ This repository contains the implementation, experimental setup, and documentati
 /src
   /data        # Data loading, preprocessing, augmentation
   /preproc     # Data processing
-  /models      # Baseline and proposed models (BERT, ResNet/ViT, fusion mechanisms)
+  /models      # Baseline and proposed models (BERT, ResNet, fusion mechanisms)
   /train       # Training loops, schedulers, logging
-  /eval        # Evaluation metrics, ROC/PR curves, confusion matrices
+  /eval        # Evaluation metrics
   /configs     # YAML/JSON configuration files for experiments
   /figures     # Auto-generated plots, visualizations (Grad-CAM, attention heatmaps)
   /tables      # CSV results for performance tables
@@ -25,7 +25,7 @@ LICENSE
 ## Workflow
 
 1. **Data Preparation**
-   - Collect datasets (e.g., Hateful Memes, FakeAVCeleb, YouTube-8M subset).
+   - Collect datasets (e.g., Hateful Memes).
    - Preprocess:
      - Extract frames with OpenCV (e.g., 1 fps).
      - Extract audio features with librosa (MFCC, mel).
