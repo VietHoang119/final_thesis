@@ -8,7 +8,7 @@ This repository contains the implementation, experimental setup, and documentati
 /src
   /data        # Data loading, preprocessing, augmentation
   /preproc     # Data processing
-  /model      # Baseline and proposed models (BERT, ResNet, fusion mechanisms)
+  /models      # Baseline and proposed models (BERT, ResNet, fusion mechanisms)
 README.md
 requirements.txt
 LICENSE
